@@ -1,9 +1,12 @@
 import React from 'react'
+import Form from './Form'
 
-const Card = () => {
+const Card = ({formulario}) => {
   return (
     <>
-      Hola, soy una card!
+      <h3>Ya veo que tu personaje favorito es {formulario.nombre}</h3>
+      <h3>Y tu razón es "{formulario.porque}"</h3>
+      <h2>Muy bien!</h2>
     </>
   )
 }
