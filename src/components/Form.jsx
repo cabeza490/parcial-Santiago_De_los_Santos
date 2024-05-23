@@ -18,8 +18,8 @@ const Form = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         if (
-            formulario.nombre.length > 3 &&
-            formulario.porque.length > 6 &&
+            formulario.nombre.length > 2 &&
+            formulario.porque.length > 5 &&
             !/\s/.test(formulario.nombre)
         ) {
             setShow(true);
